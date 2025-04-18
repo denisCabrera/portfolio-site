@@ -1,3 +1,7 @@
+> ⚠️ **This site is currently under active construction.**
+> Expect frequent updates and improvements as I continue building out content, features, and styling.
+
+
 # 🧠 Denis Cabrera's Portfolio Site
 
 Welcome to my technical portfolio and knowledge base. This site showcases my hands-on work in **cloud security**, **automation**, and **AI integration**. It includes projects, cheat sheets, study notes, and technical blogs — all built and documented by me.
