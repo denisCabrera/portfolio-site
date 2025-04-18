@@ -19,10 +19,8 @@ Built using [Docusaurus](https://docusaurus.io/), this site is designed to be cl
 
 You can view the live site at:  
 **[https://deniscabrera.dev](https://deniscabrera.dev)**  
-_or_  
-**[https://denisCabrera.github.io/portfolio-site](https://yourusername.github.io/portfolio-site)**
 
-> Hosting powered by GitHub Pages (or Vercel/Netlify)
+> Hosting powered by GitHub Pages
 
 ---
 
@@ -31,7 +29,7 @@ _or_
 - [Docusaurus 2](https://docusaurus.io/) (React-based static site generator)
 - Markdown (`.md`) for all docs and pages
 - GitHub for version control
-- Optionally deployed with GitHub Pages, Vercel, or Netlify
+- Optionally deployed with GitHub Pages
 
 ---
 
