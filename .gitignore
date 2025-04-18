@@ -35,3 +35,75 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# -----------------------------
+# 📘 DOCUSAURUS (STATIC SITE)
+# -----------------------------
+
+# Node.js dependencies
+node_modules/
+
+# Build output (generated static files)
+build/
+.docusaurus/
+.cache/
+
+# Optional lock files
+package-lock.json
+yarn.lock
+
+# Custom domain config (optional - allow if using GitHub Pages)
+# CNAME
+
+# -----------------------------
+# 💻 VS CODE / EDITOR FILES
+# -----------------------------
+
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# 🔐 SECURITY & KEYS
+# -----------------------------
+
+*.pem
+*.key
+*.crt
+*.csr
+*.pub
+
+# -----------------------------
+# 🧪 PYTHON SCRIPTS / TEMP FILES
+# -----------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.bak
+*.tmp
+
+# -----------------------------
+# 🧪 NOTEBOOK / REPORTS (OPTIONAL)
+# -----------------------------
+
+*.ipynb_checkpoints
+
+# -----------------------------
+# 🚀 SYSTEM / DEPLOY FILES
+# -----------------------------
+
+.DS_Store
+Thumbs.db
+*.log
+*.pid
+
+# -----------------------------
+# 🧪 EXAMPLES / SANDBOX
+# -----------------------------
+
+# Allow safe placeholders
+!terraform.tfvars.example
+!.env.example
+
