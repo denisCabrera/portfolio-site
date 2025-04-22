@@ -36,6 +36,28 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'notes',
+        path: 'notes',
+        routeBasePath: 'notes',
+        sidebarPath: require.resolve('./sidebars/sidebarNotes.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        path: 'about',
+        routeBasePath: 'about',
+        sidebarPath: require.resolve('./sidebars/sidebarAbout.js'),
+      },
+    ],
+  ],
+  
+
   presets: [
     [
       'classic',
@@ -49,10 +71,10 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
-            xslt: true,
+            xslt: false,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -88,7 +110,22 @@ const config = {
             position: 'left',
             label: 'Projects',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            docsPluginId: 'notes',
+            sidebarId: 'notesSidebar',
+            docId: 'intro',
+            position: 'left',
+            label: 'Notes',
+          },
+          {
+            type: 'docSidebar',
+            docsPluginId: 'about',
+            sidebarId: 'aboutSidebar',
+            docId: 'intro',
+            position: 'left',
+            label: 'About',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -103,43 +140,28 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Projects',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/denisCabrera',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/denis-cabrera/',
+              },
+              
             ],
           },
+          
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Denis Technical Site`,
       },
       prism: {
         theme: prismThemes.github,
