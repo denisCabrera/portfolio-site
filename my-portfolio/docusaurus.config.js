@@ -46,6 +46,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars/sidebarNotes.js'),
       },
     ],
+
+      [
+    '@docusaurus/plugin-google-gtag',
+    {
+      trackingID: 'G-MT0M6FYG41', // Replace with your real GA tag
+      anonymizeIP: true,
+    },
+  ],
+
     [
       '@docusaurus/plugin-content-docs',
       {
