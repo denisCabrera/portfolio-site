@@ -83,6 +83,3 @@ aws ec2 delete-security-group \
 | `<your-private-key>`       | Filename of your `.pem` private key      |
 
 ---
-
-If you want this in **collapsible sections**, a Docusaurus `<details>` version, or to convert this into a JSON-powered interactive table or copy-button-enhanced code blocks, just say the word.
-
