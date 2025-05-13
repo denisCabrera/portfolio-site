@@ -38,4 +38,3 @@ Hi, I'm Denis Cabrera — a passionate technologist specializing in **Cybersecur
 
 ---
 Thanks for visiting!
-

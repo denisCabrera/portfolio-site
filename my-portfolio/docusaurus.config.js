@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome To My Site',
-  tagline: 'I share Projects, Documentation, and Code related to Cybersecurity, Cloud, and AI',
+  title: 'Projects + Notes',
+  tagline: 'I share Projects, Documentation, and Code related to Security, Automation, and Ai',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -142,36 +142,7 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Projects',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Contact',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/denisCabrera',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/denis-cabrera/',
-              },
-              
-            ],
-          },
-          
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Denis Technical Site`,
-      },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
