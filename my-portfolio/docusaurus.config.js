@@ -77,7 +77,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/denisCabrera/portfolio-site/',
         },
         blog: {
           showReadingTime: false,
@@ -108,10 +108,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Home',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
@@ -136,7 +132,7 @@ const config = {
             label: 'About',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/denisCabrera/portfolio-site/',
             label: 'GitHub',
             position: 'right',
           },
